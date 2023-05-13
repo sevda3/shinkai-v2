@@ -1,4 +1,4 @@
-const imagesUrl = '/images.json'; // Replace with the URL of your JSON file
+const imagesUrl = './images.json'; // Replace with the URL of your JSON file
 
 function bgSelect(){fetch(imagesUrl)
   .then(response => response.json())
