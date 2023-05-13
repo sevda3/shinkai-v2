@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Shinkai Homepage",
+    "version": "2.0",
+    "chrome_url_overrides": {
+        "newtab": "kanata.html"
+      },    
+    "action": {
+        "default_icon": "logo.png"
+      },
+    "permissions": [
+        "activeTab"
+      ]
+  }
