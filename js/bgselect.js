@@ -10,7 +10,7 @@ function bgSelect(){fetch(imagesUrl)
     } else {
       const randomIndex = Math.floor(Math.random() * images.length);
       const randomImage = images[randomIndex];
-      const imagePath = `./bg/${randomImage}`;
+      const imagePath = `../bg/${randomImage}`;
 
       // Set the background image of the body element
       document.body.style.backgroundImage = `url(${imagePath})`;
